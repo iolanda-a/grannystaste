@@ -1,0 +1,89 @@
+ .locationFacebook {
+    display: flex;
+    background-color: #ce93a6;
+    font-family:'Arapey';
+    font-size: 20px;
+    padding: 10px;
+}
+
+.mapLink {
+    color:#f7f2f5;
+    text-decoration: none;
+}
+
+.mapLink:hover {
+    color: #b74f72;
+}
+
+.pushLogo {
+    margin-left: auto;
+}
+
+.facebookLogo {
+    height: 20px;
+    width: 20px;
+    margin-left: -30%;
+}
+
+.mainPageLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 17%;
+    height: auto;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around; 
+    border-top: 1px ridge #b4b4b4; 
+    border-bottom: 1px ridge #b4b4b4; 
+    padding: 8px;
+}
+
+.nav > a {
+    font-family: 'Grand Hotel';
+    font-size: 24px;
+    text-decoration: none;
+    color: #5c5c5c;
+}
+
+.nav > .active {
+    font-family: 'Grand Hotel';
+    font-size: 24px;
+    text-decoration: none;
+    color: #b74f72;
+    border-top: 2px solid #b74f72;
+}
+
+.nav > a:hover {
+    font-family: 'Grand Hotel';
+    font-size: 24px;
+    text-decoration: none;
+    color: #b74f72;
+    border-top: 2px solid #b74f72;
+}
+
+.imageContainer {
+    background-image: url(blurredEclair.jpg);
+    background-size:cover;
+    background-position-x: center;
+    background-position-y: center;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageText{
+    transform: rotate(-5deg);
+    font-family: 'Grand Hotel';
+    font-size: 65px;
+    color: #f7f2f5;
+    text-shadow: 2px 2px #5c5c5c;
+
+}
+
+
+
