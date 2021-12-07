@@ -1,4 +1,4 @@
- .locationFacebook {
+.locationFacebook {
     display: flex;
     background-color: #ce93a6;
     font-family:'Arapey';
@@ -69,24 +69,14 @@
     border-top: 2px solid #b74f72;
 }
 
-.imageContainer {
-    background-image: url(blurredEclair.jpg);
-    background-size:cover;
-    background-position-x: center;
-    background-position-y: center;
-    height: 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imageText{
-    transform: rotate(-5deg);
-    font-family: 'Grand Hotel';
-    font-size: 65px;
-    color: #f7f2f5;
-    text-shadow: 2px 2px #5c5c5c;
-
+.divider {
+    display: block;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 }
 
 h1 {
@@ -100,79 +90,25 @@ h1 {
     color: #191919;
 }
 
-
-.homePageSweets {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    border: 2px solid #b4b4b4;
-    padding: 10px;
-    row-gap: 10px;
-}
-
-.productImg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 80%;
-    width: 80%;
-    object-fit: contain;
-}
-
-
-
-.cakeName {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: 'Grand Hotel';
-    font-size: 23px;
-    color:#b74f72;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    text-align: center;
-
-}
-
-.details {
-    font-family: 'Arapey';
-    font-size: 16px;
-    text-decoration: none;
-    color:#5c5c5c;
-    text-align: right;
-}
-
-.details:hover {
-    font-family: 'Arapey';
-    font-size: 16px;
-    text-decoration: none;
-    color:#b74f72;
-}
-
-.products {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    justify-content: center;
-    border: 2px solid #b4b4b4;
-    padding: 10px;
-    width: 25%;
-}
-
-@media screen and (max-width: 992px) {
-    .products {
-        width: 35%;
-    }
-}
-
 .simpleParagraph {
-    display: block;
     margin-left: 5%;
     margin-right: 5%;
     font-family:'Arapey';
     font-size: 18px;
     padding: 10px;
 
+}
+
+.ownerPic > img {
+    float: left;
+    margin: 0 2% 0 5%;
+    width: 15%;
+}
+
+.ownerCooking > img {
+    float: right;
+    margin: 0 5% 2% 2%;
+    width: 15%;
 }
 
 .copyright {
@@ -186,17 +122,3 @@ h1 {
     letter-spacing: 1px;
     text-align: right;
 }
-
-.divider {
-    display: block;
-    padding: 10px;
-    width: auto;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-}
-
-
-
-
